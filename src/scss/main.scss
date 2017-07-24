@@ -1,0 +1,18 @@
+// colors
+$main: #ec7f10;
+$header-bg: #111119;
+$input-bg: #e6e6e6;
+$slide-bg: #343341;
+$black: #000;
+$white: #fff;
+
+@import "base/reset";
+@import "base/responsive";
+@import "base/layout";
+@import "base/fonts";
+
+@import "components/slider";
+@import "components/header";
+@import "components/ibe";
+
+@import "sections/search";

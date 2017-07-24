@@ -1,0 +1,8 @@
+@mixin media($size) {
+  @media all and (min-width: $size + px) { @content; }
+}
+
+@mixin hmedia($size) {
+  @media all and (max-height: $size + px) { @content; }
+}
+

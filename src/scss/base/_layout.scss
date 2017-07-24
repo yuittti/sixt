@@ -1,0 +1,12 @@
+.container {
+	width: 990px;
+	max-width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+
+	@include media(768) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

@@ -1,0 +1,30 @@
+.search {
+	&-section {
+		width: 100%;
+		max-width: 1600px;
+		height: auto;
+		position: relative;
+		padding-bottom: 30px;
+
+		@include media(800) {
+			padding-bottom: 0;
+		}
+
+		@include media(1065) {
+			height: 500px;
+		}
+	}
+
+	&-slider {
+		height: 100%;
+		z-index: 1;
+
+		@include media(1065) {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+		}
+	}
+}
